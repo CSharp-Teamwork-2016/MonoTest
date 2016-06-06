@@ -120,17 +120,17 @@
                 spriteBatch
                     .Draw(
                     this.EntitySpriteSheet.Texture,
-                    destinationRectangle,
                     this.EntitySpriteSheet.GetRactangleByPosition(currentRow, col),
+                    destinationRectangle,
                     Color.White);
             }
             else
             {
                 spriteBatch
                     .Draw(
-                    this.EntitySpriteSheet.Texture,
-                    destinationRectangle,
+                    this.EntitySpriteSheet.Texture,                    
                     this.EntitySpriteSheet.GetRactangleByPosition(currentRow, 0),
+                    destinationRectangle,
                     Color.White);
             }
         }
